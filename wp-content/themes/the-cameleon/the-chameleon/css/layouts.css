@@ -1,0 +1,43 @@
+/* = Global Paddinga
+-------------------------------------------------------------- */
+.widget-header, /*widgets*/
+.widget-content,
+.page-content, /*page*/
+.post-header-loop, /*loop*/
+.post-meta-loop,
+.post-content-loop,
+.post-footer-loop{	
+	padding:10px; 	
+}
+
+
+/* = Global Margins
+-------------------------------------------------------------- */
+.post-loop, /*loop*/
+.pagination,
+
+.post-content p,
+.post-content blockquote,
+.post-content dl,	/*post-content*/
+.post-content table,
+.post-content code,
+.post-content pre,
+.post-content ul,
+.post-content ol,
+
+.page-content h1, /*page-content*/
+.page-content p,
+.page-content blockquote,
+.page-content table,
+.page-content dl,
+.page-content code,
+.page-content pre,
+.page-content ul, 
+.page-content ol,
+
+.sidebar .widget,  /*widgets*/
+.widget_text p,
+.widget_text ul,  
+.widget_text ol{ 
+ 	margin-bottom:20px !important;	
+}

@@ -1,0 +1,90 @@
+/* = MENU responsive   ao-hall-logo-dark-135x35.png
+-------------------------------------------------------------- */
+.responsive-menu {
+    display: none;
+}
+
+.responsive-menu select {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+
+/* = Horizontal Menu  
+-------------------------------------------------------------- */
+
+
+.upper .widget_nav_menu ul.menu,
+.copyright .widget_nav_menu ul.menu,
+.horizontal-menu ul {
+    float: left;
+	width:100%;
+    position: relative;
+    padding: 0px;
+	margin:0px;
+    list-style-type: none !important; /*dont need dots on menu list*/
+}
+
+.upper .widget_nav_menu ul.menu li,
+.copyright .widget_nav_menu ul.menu li,
+.horizontal-menu ul li {
+	float: left;
+    display: inline !important;
+}
+
+.upper .widget_nav_menu ul.menu li a,
+.copyright .widget_nav_menu ul.menu li a,
+.horizontal-menu ul li a {
+	width:100%;
+    display: block !important;
+}
+
+
+/* = Horizontal Menu Sub
+-------------------------------------------------------------- */
+.upper .widget_nav_menu ul.menu ul, 
+.copyright .widget_nav_menu ul.menu ul, 
+.horizontal-menu ul ul{ 
+	width:180px; 	
+	display: none;
+    position: absolute;
+    z-index: 999999;
+}
+
+.upper .widget_nav_menu ul.menu ul li,
+.horizontal-menu ul ul li{
+	width:100%;
+} 
+
+
+.upper .widget_nav_menu ul.menu li:hover > ul, 
+.horizontal-menu ul li:hover > ul{ 
+	display: block;
+ 
+}
+
+/* = Horizontal Menu Sub Sub
+-------------------------------------------------------------- */
+.upper .widget_nav_menu ul.menu ul ul, 
+.horizontal-menu ul ul ul,
+.upper .widget_nav_menu ul.menu ul ul ul ul ul ul, 
+.horizontal-menu ul ul ul ul ul ul ul,
+.upper .widget_nav_menu ul.menu ul ul ul ul ul ul ul ul ul ul, 
+.horizontal-menu ul ul ul ul ul ul ul ul ul ul ul{ 
+	top:0;
+	left:100%;
+}
+
+/* = Horizontal Menu Sub Sub Sub 
+-------------------------------------------------------------- */
+.upper .widget_nav_menu ul.menu ul ul ul ul, 
+.horizontal-menu ul ul ul ul ul,
+.upper .widget_nav_menu ul.menu ul ul ul ul ul ul ul ul, 
+.horizontal-menu ul ul ul ul ul ul ul ul ul{ 
+	top:0;
+	left:-100%;
+}
+
+
+
+
